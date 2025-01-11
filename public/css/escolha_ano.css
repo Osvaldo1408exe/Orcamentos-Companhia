@@ -1,0 +1,49 @@
+
+body {
+    font-family: helvetica;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container h1{
+    font-size: 30px;
+    font-weight: lighter;
+    position: fixed;
+}
+
+.btnList{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.btn{
+    cursor: pointer;
+    padding: 10px 40px ;
+    background-color: rgb(89, 151, 192);
+    border: 2px solid rgba(78, 147, 194, 0.596);
+    color: white;
+    transition-duration: 0.4s;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+
+.nextYears{
+    display: none;
+}

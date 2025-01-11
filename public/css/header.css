@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+  
+  .navbar-toggler {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+  }
+
+
+  
+  .navbar-collapse {
+    display: none;
+    flex-direction: column;
+  }
+  
+  .navbar-collapse.show {
+    display: flex;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;  
+    flex-direction: row; 
+  }
+  
+  .nav-item {
+    margin: 0 10px; 
+  }
+
+  .nav-item button{
+    background-color: rgb(180, 43, 43);
+    width: 80px;
+    border: none;
+  }
+
+  .nav-item button:hover{
+    background-color: rgba(180, 43, 43, 0.664);
+    
+  }
+
+  #uploadBtn{
+    background-color: rgb(45, 170, 187);
+    width: 80px;
+    border: none;
+  }
+
+  #uploadBtn:hover{
+    background-color: rgba(45, 170, 187, 0.664);
+    
+  }
+  
+  .nav-link {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+  
+  .nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #495057;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999 !important;
+  }
+  
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-item {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #6c757d;
+    border-radius: 3px;
+  }
+
+   
+  
+  @media (min-width: 768px) {
+    .navbar-toggler{
+        display: none;
+    }
+    .navbar-collapse {
+      display: flex !important;
+      flex-direction: row;
+    }
+  
+    .navbar-nav {
+      flex-direction: row; 
+    }
+  }
+  
