@@ -15,8 +15,39 @@ O sistema tem como objetivo facilitar a administração dos orçamentos para os 
 - PHP
 - Postgres
 
+## Instalação e Configuração
+
+### Rodar o Projeto
+
+Clone o projeto
+
+```bash
+    git clone https://github.com/Osvaldo1408exe/Orcamentos-Companhia.git
+```
+
+Entre no diretório do projeto
+
+```bash
+    cd Orcamentos-Companhia
+```
+
+Inicie o servidor
+
+```bash
+    php -S localhost:3030
+```
+ou coloque em htdocs do seu servidor
+
+#### Obs.: Inicie após configurar as variáveis
+
+### Configurar as Variáveis
+
+Para rodar esse projeto, é necessário configurar os arquivos `auth.php` e `database.php` em config.
 
 
+##
+
+![Logo](/public/imgs/logo.png)
 
 
 
