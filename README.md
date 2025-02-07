@@ -1,5 +1,5 @@
 # Orcamentos-Companhia
-O sistema tem como objetivo facilitar a administração dos orçamentos para os getores de cada setor. Baseado em dados de planilhas de orçamentos, ele foi aprimorado com automatizações, funções e cálculos adicionais para otimizar o processo de gestão.
+O sistema tem como objetivo facilitar a administração dos orçamentos para os gestores de cada setor. Baseado em dados de planilhas de orçamentos, ele foi aprimorado com automatizações adicionais para otimizar o processo de gestão.
 
 ## Principais Funcionalidades
 - Alteração da Situação do Orçamento: Permite alterar a situação atual do orçamento utilizando apenas o código do processo no Sistema Eletrônico de Informações (SEI).
